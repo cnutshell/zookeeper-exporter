@@ -37,3 +37,8 @@ curl -s localhost:8084/metrics
 # shutdown containers
 docker-compose down -v
 ```
+
+# My Personal Comments
+
+- *Refer to function `getMetrics` of main.go*
+- *mechanics: open tcp connections to zk nodes, send 'mntr' to fetch result*
